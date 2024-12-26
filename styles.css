@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('img4.jpg') no-repeat center center fixed;
+    background-size:100%; /* Ensures the image covers the entire background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the form */
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.8); /* Adds a semi-transparent white background */
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Heading style */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form and label styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Button styling */
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Result display */
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+#result {
+    font-size: 16px;
+    color: #333;
+    word-wrap: break-word;
+}
